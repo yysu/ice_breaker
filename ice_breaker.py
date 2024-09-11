@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 from langchain.prompts.prompt import PromptTemplate
 from langchain_openai import ChatOpenAI
-from langchain.chains import LLMChain
 
 from output_parsers import summary_parser
 from third_parties.linkedin import scrape_linkedin_profile
