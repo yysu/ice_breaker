@@ -27,7 +27,7 @@ def ice_break_with(name: str) -> str:
         input_variables=["information", "twitter_posts"], template=summary_template
     )
 
-    llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
+    llm = ChatOpenAI(temperature=0, model_name="gpt-4o-mini")
 
     chain = summary_prompt_template | llm
 
